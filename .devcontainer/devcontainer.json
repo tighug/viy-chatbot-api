@@ -1,0 +1,17 @@
+{
+  "name": "Python 3.10",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "VisualStudioExptTeam.vscodeintellicode",
+        "esbenp.prettier-vscode",
+        "KevinRose.vsc-python-indent",
+        "EditorConfig.EditorConfig"
+      ]
+    }
+  }
+}
